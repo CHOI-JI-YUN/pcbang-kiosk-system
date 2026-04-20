@@ -115,4 +115,4 @@ pcbang-kiosk-system/
 
 ### 📷 QR 인증 화면
 카메라를 통해 QR 코드를 인식하고 사용자 인증이 완료되는 화면입니다.  
-![QR 인증](images/qr인증%20순서.png)
+![QR 인증](images/qr인증.png)
