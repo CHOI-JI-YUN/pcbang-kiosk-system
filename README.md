@@ -85,6 +85,7 @@ pcbang-kiosk-system
 └── images
 
 
+---
 
 ## 📷 실행 화면
 
