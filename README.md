@@ -78,12 +78,25 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 
 ## 📁 프로젝트 구조
 
-pcbang-kiosk-system  
-├── kiosk  
-├── user  
-├── admin  
-├── qr  
-└── images  
+```text
+pcbang-kiosk-system/
+│
+├── kiosk/            # 키오스크 프로그램 (로그인, 좌석 선택, 결제)
+│
+├── user/             # 사용자 PC 프로그램
+│   ├── Login         # 로그인 처리
+│   ├── Seat          # 좌석 이용 및 상태 관리
+│   ├── Chat          # 관리자 문의 채팅 (TCP 통신)
+│
+├── admin/            # 관리자 서버 프로그램
+│   ├── Server        # TCP 서버 실행
+│   ├── SeatManager   # 좌석 상태 관리
+│   ├── UserManager   # 사용자 관리
+│
+├── qr/               # QR 인증 기능
+│   └── QR 인식 및 인증 처리 (ZXing + AForge.NET)
+│
+└── images/           # README 이미지 파일
 
 ---
 
@@ -96,8 +109,10 @@ pcbang-kiosk-system
 ---
 
 ### 📷 QR 인증 기능
+카메라를 통해 QR 코드를 스캔하고 사용자 인증을 수행하는 기능입니다.
 
-QR 코드를 활용한 사용자 인증 기능의 실행 화면과 처리 과정입니다.
+- **ZXing** : QR 코드 인식 및 디코딩 처리  
+- **AForge.NET** : 웹캠(카메라) 영상 캡처 및 프레임 처리  
 
 <img src="images/실행.png" width="700"/>
 
