@@ -116,4 +116,5 @@ pcbang-kiosk-system/
 - AForge.NET : 웹캠(카메라) 영상 캡처 및 프레임 처리
 
 ![실행 화면](images/실행.png)
+
 ![QR 인증](images/qr인증%20순서.png)
