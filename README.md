@@ -77,7 +77,7 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 ---
 
 ## 📁 프로젝트 구조
-
+```md
 ```text
 pcbang-kiosk-system/
 │
@@ -97,7 +97,6 @@ pcbang-kiosk-system/
 │   └── QR 인식 및 인증 처리 (ZXing + AForge.NET)
 │
 └── images/           # README 이미지 파일
-
 ---
 
 ## 📷 실행 화면
