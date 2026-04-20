@@ -91,7 +91,7 @@ pcbang-kiosk-system
 
 ### 🖥 시스템 순서도
 사용자, 관리자, 키오스크 간 전체 흐름을 나타낸 순서도입니다.  
-![순서도](images/순서도.jpg)
+<img src="images/순서도.jpg" width="1000"/>
 
 ---
 
@@ -99,6 +99,6 @@ pcbang-kiosk-system
 
 QR 코드를 활용한 사용자 인증 기능의 실행 화면과 처리 과정입니다.
 
-![QR 실행 화면](images/실행.png)
+<img src="images/실행.png" width="500"/>
 
-![QR 인증 순서](images/qr인증%20순서.png)
+<img src="images/qr인증%20순서.png" width="500"/>
