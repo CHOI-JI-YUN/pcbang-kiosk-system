@@ -12,17 +12,17 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 ---
 
 ## 📅 프로젝트 정보
-- 개발 기간: 2026.03.05 ~ 2026.03.17
-- 개발 형태: 팀 프로젝트
+- 개발 기간: 2026.03.05 ~ 2026.03.17  
+- 개발 형태: 팀 프로젝트  
 
 ---
 
 ## 🧩 시스템 구성
-- Kiosk (키오스크)
-- User Client (사용자 PC)
-- Admin Server (관리자)
-- QR Module (QR 인증)
-- TCP 통신 기반 구조
+- Kiosk (키오스크)  
+- User Client (사용자 PC)  
+- Admin Server (관리자)  
+- QR Module (QR 인증)  
+- TCP 통신 기반 구조  
 
 ---
 
@@ -78,20 +78,3 @@ pcbang-kiosk-system
 ├── admin
 ├── qr
 └── images
-
----
-
-## 📷 시스템 구성 및 실행 화면
-
-### 🔐 QR 인증 과정
-<img src="images/qr인증 순서.png" width="700"/>
-
----
-
-### 🗺 전체 시스템 순서도
-<img src="images/순서도.jpg" width="900"/>
-
----
-
-### ▶ 실행 화면
-<img src="images/실행.png" width="700"/>
