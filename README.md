@@ -78,3 +78,21 @@ pcbang-kiosk-system
 ├── admin
 ├── qr
 └── images
+
+
+---
+
+## 📷 시스템 구성 및 실행 화면
+
+### 🔐 QR 인증 과정
+<img src="images/qr인증 순서.png" width="700"/>
+
+---
+
+### 🗺 전체 시스템 순서도
+<img src="images/순서도.jpg" width="900"/>
+
+---
+
+### ▶ 실행 화면
+<img src="images/실행.png" width="700"/>
