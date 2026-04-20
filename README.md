@@ -1,10 +1,10 @@
 # 🎮 PC방 키오스크 시스템
 
-![C#](https://img.shields.io/badge/C%23-Language-green)
-![Windows Forms](https://img.shields.io/badge/Windows_Forms-UI-blue)
-![TCP/IP](https://img.shields.io/badge/TCP/IP-Socket-orange)
-![SQLite](https://img.shields.io/badge/SQLite-Database-lightgrey)
-![QR](https://img.shields.io/badge/QR-Authentication-blueviolet)
+![Language](https://img.shields.io/badge/Language-C%23-green)
+![UI](https://img.shields.io/badge/UI-Windows_Forms-blue)
+![Socket](https://img.shields.io/badge/Socket-TCP/IP-orange)
+![Database](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![Authentication](https://img.shields.io/badge/Authentication-QR-blueviolet)
 
 TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증 기능을 포함한 PC방 관리 프로그램입니다.
 
