@@ -98,22 +98,22 @@ pcbang-kiosk-system/
 │
 └── images/           # README 이미지 파일
 
+
 ---
 
-## 📷 실행 화면
+📷 실행 화면
+🖥 시스템 순서도
 
-### 🖥 시스템 순서도
-사용자, 관리자, 키오스크 간 전체 흐름을 나타낸 순서도입니다.  
+사용자, 관리자, 키오스크 간 전체 흐름을 나타낸 순서도입니다.
 <img src="images/순서도.jpg" width="1000"/>
 
+
 ---
 
-### 📷 QR 인증 기능
+📷 QR 인증 기능
+
 카메라를 통해 QR 코드를 스캔하고 사용자 인증을 수행하는 기능입니다.
 
-- **ZXing** : QR 코드 인식 및 디코딩 처리  
-- **AForge.NET** : 웹캠(카메라) 영상 캡처 및 프레임 처리  
-
-<img src="images/실행.png" width="700"/>
-
-<img src="images/qr인증%20순서.png" width="700"/>
+ZXing : QR 코드 인식 및 디코딩 처리
+AForge.NET : 웹캠(카메라) 영상 캡처 및 프레임 처리
+<img src="images/실행.png" width="700"/> <img src="images/qr인증%20순서.png" width="700"/> ```
