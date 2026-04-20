@@ -99,6 +99,6 @@ pcbang-kiosk-system
 
 QR 코드를 활용한 사용자 인증 기능의 실행 화면과 처리 과정입니다.
 
-<img src="images/실행.png" width="500"/>
+<img src="images/실행.png" width="700"/>
 
-<img src="images/qr인증%20순서.png" width="500"/>
+<img src="images/qr인증%20순서.png" width="700"/>
