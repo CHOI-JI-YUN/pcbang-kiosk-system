@@ -79,7 +79,6 @@ pcbang-kiosk-system
 ├── qr
 └── images
 
-
 ---
 
 ## 📷 시스템 구성 및 실행 화면
