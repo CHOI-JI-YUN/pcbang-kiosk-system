@@ -115,7 +115,7 @@ pcbang-kiosk-system/
 ---
 
 ## 📑 발표 자료
-- [발표자료 보기](docs/pcbang_kiosk_presentation.pdf)
+- [발표자료 보기] (docs/pcbang_kiosk_presentation.pdf)
  
 ---
 
