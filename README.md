@@ -103,13 +103,20 @@ pcbang-kiosk-system/
 │   ├── SeatManager   # 좌석 상태 관리
 │   ├── UserManager   # 사용자 관리
 │
-├── qr/               # QR 인증 기능
+├── qr/
 │   └── QR 인식 및 인증 처리 (ZXing + AForge.NET)
 │
-└── images/           # README 이미지 파일
+├── docs/                # 발표 자료
+│   └── pcbang_kiosk_presentation.pdf
+│
+└── images/              # README 이미지 파일
 ```
 
+---
 
+## 📑 발표 자료
+- [발표자료 보기](docs/pcbang_kiosk_presentation.pdf)
+ 
 ---
 
 ## 🖥 시스템 구조 (순서도)
