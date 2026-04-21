@@ -165,4 +165,4 @@ pcbang-kiosk-system/
 ![매출 그래프](images/관리자%20매출그래프.png)
 
 #### 🧑‍🍳 아르바이트(스태프) 기능
-<img src="images/관리자%20좌석정보.png" width="300">
+<img src="images/관리자%20좌석정보.png" width="500">
