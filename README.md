@@ -6,7 +6,7 @@
 ![Database](https://img.shields.io/badge/Database-SQLite-lightgrey)
 ![Authentication](https://img.shields.io/badge/Authentication-QR-blueviolet)
 
-TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증 기능을 포함한 PC방 관리 프로그램입니다.
+TCP/IP 기반 키오스크, 사용자, 관리자 간 통신 시스템과 QR 인증 기능을 포함한 PC방 통합 관리 시스템입니다.
 
 ---
 
@@ -14,8 +14,8 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 본 프로젝트는 PC방 환경을 가정하여,  
 키오스크를 통한 좌석 선택 및 결제, 사용자 PC 이용 관리, 관리자 서버 제어, QR 인증 기능까지 포함한 통합 시스템을 구현했습니다.  
 
-각 구성 요소 간 TCP 통신을 통해 실시간 데이터 처리를 수행하며,  
-클라이언트-서버 구조 기반으로 데이터 흐름을 설계했습니다.
+각 구성 요소 간 TCP/IP 통신을 통해 실시간 데이터 처리를 수행하며, 
+클라이언트-서버 구조 기반으로 사용자, 관리자, 키오스크 간 데이터 흐름을 설계했습니다.
 
 ---
 
@@ -30,7 +30,7 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 - User Client (사용자 PC)  
 - Admin Server (관리자)  
 - QR Module (QR 인증)  
-- TCP 통신 기반 구조  
+- TCP/IP 기반 클라이언트-서버 통신 구조
 
 ---
 
@@ -47,8 +47,8 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 | 구분 | 내용 |
 |------|------|
 | Language | C# |
-| Framework | WinForms |
-| Communication | TCP/IP Socket |
+| Framework | WinForms (.NET Framework) |
+| Communication | TCP/IP Socket, QR Authentication |
 | Database | SQLite |
 | Library | ZXing, AForge |
 
@@ -77,12 +77,12 @@ TCP 기반 키오스크, 사용자, 관리자 간 통신 시스템 및 QR 인증
 
 ### 📷 QR 인증
 - 카메라 기반 QR 코드 인식  
-- 사용자 인증 처리  
+- QR 코드 기반 사용자 인증 처리  
 
 ---
 
 ## 🎥 시연 영상
-[시연 영상 보기](여기에_영상링크_넣기)
+시연 영상은 추후 업로드 예정입니다.
 
 ---
 
@@ -133,7 +133,7 @@ pcbang-kiosk-system/
 - **ZXing** : QR 코드 인식 및 디코딩 처리  
 - **AForge.NET** : 웹캠(카메라) 영상 캡처 및 프레임 처리  
 
-![실행 화면](images/실행.png)
+![QR 실행 화면](images/실행.png)
 
 ![QR 인증](images/qr인증%20순서.png)
 
@@ -142,34 +142,34 @@ pcbang-kiosk-system/
 
 ### 🎮 키오스크 화면
 
-#### 로그인 화면
+#### 🔐 로그인 화면
 ![키오스크 로그인](images/키오스크로그인.png)
 
-#### 좌석 선택 화면
+#### 💺 좌석 선택 화면
 ![키오스크 좌석](images/키오스크%20좌석.png)
 
-#### 결제 화면
+#### 💳 결제 화면
 ![키오스크 결제](images/키오스크%20결제.png)
 
 ---
 
 ### 💻 사용자 PC 화면
 
-#### 메인 화면
+#### 🖥 메인 화면
 ![메인](images/메인.png)
 
-#### 채팅 기능
+#### 💬 채팅 기능
 ![채팅](images/메신저%20사용자.png)
 
-#### 음식 주문 기능
+#### 🍜 음식 주문 기능
 ![음식주문](images/사용자%20음식주문.png)
 
 ---
 
 ### 🖥 관리자 화면
 
-#### 👨‍💼 사장(관리자) 기능
+#### 👨‍💼 사장(관리자) 화면
 ![매출 그래프](images/관리자%20매출그래프.png)
 
-#### 🧑‍🍳 아르바이트(스태프) 기능
+#### 🧑‍🍳 아르바이트(스태프) 화면
 ![좌석 관리](images/관리자%20좌석정보.png)
