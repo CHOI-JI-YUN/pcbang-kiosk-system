@@ -177,11 +177,6 @@ pcbang-kiosk-system/
 
 ---
 
-## 🎥 시연 영상
-시연 영상은 추후 업로드 예정입니다.
-
----
-
 ## 📑 발표 자료
 - [발표자료 보기](docs/pcbang_kiosk_presentation.pdf)
 
