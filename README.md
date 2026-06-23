@@ -1,4 +1,4 @@
-# 🎮 PC방 키오스크 시스템
+# 🎮 PC방 키오스크 및 사용자 관리 시스템
 
 ![Language](https://img.shields.io/badge/Language-C%23-green)
 ![UI](https://img.shields.io/badge/UI-Windows_Forms-blue)
